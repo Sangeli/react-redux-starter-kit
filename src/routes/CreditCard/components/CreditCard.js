@@ -2,7 +2,7 @@ import React from 'react'
 
 export const CreditCard = (props) => (
   <div >
-    <h2>Dummy</h2>
+    Test
   </div>
 )
 
