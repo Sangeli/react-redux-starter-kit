@@ -63,6 +63,7 @@ if (project.env === 'development') {
   // Serving ~/dist by default. Ideally these files should be served by
   // the web server and not the app server, but this helps to demo the
   // server in production.
+  console.log('tp1');
   app.use(express.static(project.paths.dist()))
 }
 
