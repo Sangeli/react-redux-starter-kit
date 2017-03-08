@@ -13,5 +13,5 @@ RUN cp -a /tmp/node_modules /usr/src/app/
 ENV NODE_ENV=production
 ENV PORT=4000
 
-CMD [ "npm", "run", "deploy"]
 EXPOSE 4000
+CMD [ "npm", "run", "deploy"]
